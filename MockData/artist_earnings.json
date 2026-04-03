@@ -1,0 +1,10 @@
+{
+  "_id": "earn_888",
+  "order_id": "order_abc123", // เชื่อมไปหาใบสั่งซื้อ
+  "artist_id": "artist_001",
+  "gross_amount": 1200.0, // ยอดขายเต็ม
+  "commission_fee": 120.0, // หักเข้าเว็บ 10%
+  "net_amount": 1080.0, // เงินที่ศิลปินได้จริง
+  "status": "available", // pending (รอตรวจสอบ), available (ถอนได้), withdrawn (ถอนแล้ว)
+  "created_at": "2026-04-03T11:45:00Z"
+}

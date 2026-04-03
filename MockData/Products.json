@@ -1,0 +1,21 @@
+{
+  "_id": "1",
+  "title": "Starlet Vinyl Limited Edition",
+  "description": "The Lemited",
+  "price": 1200,
+  "stock_quantity": 25,
+  "size": "12-inch",
+  "image_url": "Url",
+  "audio_preview_url": "Url",
+  "download_url": "Url",
+  "status": "active",
+  "artist_id": "1",
+
+  "category": {
+    "cat_id": "cat_101",
+    "name": "T-Shirt",
+    "description": "Lemited T-Shirt"
+  },
+
+  "created_at": "2026-04-03T11:00:00Z"
+}

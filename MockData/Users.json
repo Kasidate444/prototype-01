@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "username": "Starlet",
+    "email": "starlet@mail.com",
+    "password": "hashed_password_12345671234567", // รหัสผ่านที่ผ่านการเข้ารหัสแล้ว (ความปลอดภัยสำคัญมาก)
+    "role": "artist", // สิทธิ์การใช้งาน: แบ่งเป็นศิลปิน (Artist) หรือลูกค้า (Customer)
+    "profile_img": "Url",
+    "created_at": "2001-11-12T00:00:00Z", // วันที่สร้างบัญชี (ISO 8601 Format)
+
+    // ข้อมูลที่อยู่ (Array of Objects): หนึ่งผู้ใช้สามารถมีได้หลายที่อยู่
+    "addresses": [
+      {
+        "receiver": "starlet", // ชื่อผู้รับของ
+        "phone_number": "0827391739", // เก็บเป็น String เพื่อรักษาเลข '0' ตัวหน้า
+        "address": "123/45 Sukhumvit 21 Rd., Khlong Toei Nuea, Watthana, Bangkok 10110 Vcharkarn",
+        "province": "Bangkok",
+        "postal_code": "10110",
+        "is_default": false // สถานะ: ไม่ใช่ที่อยู่หลัก
+      },
+
+      {
+        "receiver": "starlet",
+        "phone_number": "0827391739",
+        "address": "99 Moo 5, Thasala, Mueang Chiang Mai, Chiang Mai 50000 CEN Language School",
+        "province": "Chiang Mai",
+        "postal_code": "50000",
+        "is_default": true // สถานะ: เป็นที่อยู่หลัก (Default) ระบบจะเลือกที่นี่ก่อนเสมอ
+      }
+    ]
+  }
+]
