@@ -1,0 +1,10 @@
+{
+  "_id": "artist_1", // รหัสอ้างอิงศิลปิน (Primary Key)
+  "user_id": 1, // รหัสผู้ใช้เจ้าของร้าน (Foreign Key): เชื่อมไปยัง Users Collection
+  "artist_name": "Starlet", // ชื่อในฐานะศิลปิน
+  "store_name": "Starlet Official Store", // ชื่อร้านค้าที่จะโชว์หน้าบ้าน (Frontend)
+  "bio": "Starlet", // ประวัติย่อหรือคำอธิบายร้านค้า
+  "banner_url": "Url", // ลิงก์รูปภาพหน้าปก (Banner) ของร้าน
+  "verified_status": true, // สถานะการยืนยันตัวตน (Boolean): true = ยืนยันแล้ว (มีติ๊กถูก), false = ยังไม่ได้ยืนยัน
+  "created_at": "2026-04-03T11:05:00Z" // วันที่และเวลาที่สมัครเป็นศิลปิน (ISO Format)
+}
