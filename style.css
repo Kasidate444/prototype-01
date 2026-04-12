@@ -49,3 +49,29 @@
     translate: -100%;
   }
 }
+/*Park Daily*/
+.audlist {
+  background-color: rgb(212, 234, 243);
+  width: 1024px;
+  margin: auto;
+  height: 100%;
+  border: 2px rgb(209, 239, 245) solid;
+}
+.left-side {
+  width: 59%;
+  float: left;
+  margin-right: 30px;
+}
+.right-side {
+  width: 37%;
+  float: right;
+  margin-right: 2px;
+}
+.Toro-y {
+  width: 100%;
+  height: 300px;
+  background-image: url("Toro y Moi.jpg");
+  background-size: 1010px;
+  background-position-y: 30%;
+}
+/*Park Daily*/
