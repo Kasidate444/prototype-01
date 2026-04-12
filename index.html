@@ -5,10 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   </head>
   <body>
-    <!--Navbar  Section 01  :พี่มาย -->
+    <!--Navbar  Section 01  :พี่มาย --> 
+   
 
     <!-- แถบ selling now ใต้ Nav bar Section 02 :น้องโอ้ -->
     <div class="carousel">
@@ -117,7 +122,142 @@
     </body>
 
     <!--Section 04 Hero section 2 :คุณKoh-->
+ <section class="flex" style="background-color: #e7f2ef">
+      <!-- คอลัมน์ 1 -->
+      <div class="w-[40%]">
+        <img
+          src="/images-Section04-Herosection2/album cover - Moving Mos.jpg"
+          alt="Album Cover"
+          class="w-full h-[450px] object-cover"
+        />
+        <p
+          style="
+            font-family: &quot;Space Grotesk&quot;, sans-serif;
+            font-size: 16px;
+            font-weight: 500;
+            padding: 10px;
+            color: #19183b;
+          "
+        >
+          มอส ปฏิภาณ - Moving Mos
+        </p>
+      </div>
 
+      <!-- คอลัมน์ 2 -->
+      <div class="w-[25%] flex flex-col items-center">
+        <p
+          class="py-2"
+          style="
+            font-family: &quot;Space Grotesk&quot;, sans-serif;
+            font-size: 24px;
+            font-weight: 500;
+            text-align: center;
+            color: #19183b;
+          "
+        >
+          Audtlist Radio
+        </p>
+        <img
+          src="/images-Section04-Herosection2/album cover - Moving Mos.jpg"
+          alt="radio cover"
+          class="w-[300px] h-[300px] object-cover"
+        />
+        <p
+          class="mt-2"
+          style="
+            font-family: &quot;Space Grotesk&quot;, sans-serif;
+            font-size: 16px;
+            font-weight: 500;
+            color: #19183b;
+          "
+        >
+          โละ - มอส ปฏิภาณ
+        </p>
+        <p
+          style="
+            font-family: &quot;Space Grotesk&quot;, sans-serif;
+            font-size: 14px;
+            color: #708993;
+            text-align: center;
+            padding: 0 16px;
+          "
+        >
+          นี่เป็นเพลงป๊อปแดนซ์จากยุค 90s จังหวะสนุก
+          ฟังแล้วติดหูตั้งแต่ครั้งแรกเลย
+        </p>
+        <audio
+          id="player"
+          src="/mp3-section2/โละ - มอส.mp3"
+          controls
+          class="w-full mt-2"
+        ></audio>
+      </div>
+
+      <!-- คอลัมน์ 3 -->
+      <div class="w-[35%]">
+        <p
+          style="
+            font-family: &quot;Space Grotesk&quot;, sans-serif;
+            font-size: 24px;
+            font-weight: 500;
+            text-align: center;
+            padding: 18px 16px 0;
+            color: #19183b;
+          "
+        >
+          Tracklist
+        </p>
+        <p
+          style="
+            font-family: &quot;Space Grotesk&quot;, sans-serif;
+            font-size: 14px;
+            color: #19183b;
+            font-weight: 500;
+            text-align: left;
+            padding: 16px;
+          "
+        >
+          สวัสดีครับ มอส ปฏิภาณนะครับ ใครที่กำลังมองหาสิ่งดี ๆ ให้ตัวเอง
+          ลองเปิดใจดูนะครับ บางอย่างถ้าไม่ดี ก็แค่ 'โละ' มันออกไปครับ
+          แล้วเลือกสิ่งที่ดีกว่าให้ตัวเอง ถ้าคุณกำลังลังเล…ลองดูอันนี้ก่อน
+          ผมว่าคุณอาจชอบก็ได้
+        </p>
+        <div class="flex items-center gap-4 mb-4">
+          <img
+            src="/images-Section04-Herosection2/song - หัวใจลัดฟ้า.png"
+            class="w-32 h-32 object-cover"
+          />
+          <p
+            style="
+              font-family: &quot;Space Grotesk&quot;, sans-serif;
+              font-size: 14px;
+              color: #19183b;
+              font-weight: 500;
+              padding: 16px;
+            "
+          >
+            หัวใจลัดฟ้า - มอส ปฏิภาณ
+          </p>
+        </div>
+        <div class="flex items-center gap-4 mb-4">
+          <img
+            src="/images-Section04-Herosection2/song - โละ.png"
+            class="w-32 h-32 object-cover"
+          />
+          <p
+            style="
+              font-family: &quot;Space Grotesk&quot;, sans-serif;
+              font-size: 14px;
+              color: #19183b;
+              font-weight: 500;
+              padding: 16px;
+            "
+          >
+            โละ - มอส ปฏิภาณ
+          </p>
+        </div>
+      </div>
+    </section>
     <!--Section 05 footer ที่มีgenreเพลง :พี่อ๋อง -->
   </body>
 </html>
